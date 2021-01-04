@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT students_info (student+)>
+<!ELEMENT student (id, regno, name, dob, time, mblno, distinction)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT regno (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT dob (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT mblno (#PCDATA)>
+<!ELEMENT distinction (#PCDATA)>
